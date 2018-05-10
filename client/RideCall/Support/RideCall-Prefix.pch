@@ -1,0 +1,17 @@
+//  Copyright (c) 2013-Present Ryan Gomba. All rights reserved.
+
+#import <Availability.h>
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+
+    #import <MobileCoreServices/MobileCoreServices.h>
+    #import <SystemConfiguration/SystemConfiguration.h>
+
+    #import <RGFoundation/RGFoundation.h>
+
+    #import "RGAuthManager.h"
+    #import "RGService+RideCall.h"
+    #import "NSURL+RideCall.h"
+#endif

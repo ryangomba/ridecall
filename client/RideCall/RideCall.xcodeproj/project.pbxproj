@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		942FC97C17CE5A7000C3C448 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 942FC97B17CE5A7000C3C448 /* Foundation.framework */; };
+		942FC97E17CE5A7000C3C448 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 942FC97D17CE5A7000C3C448 /* CoreGraphics.framework */; };
+		942FC98017CE5A7000C3C448 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 942FC97F17CE5A7000C3C448 /* UIKit.framework */; };
+		942FC9BD17CE5CB300C3C448 /* RGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 942FC9B317CE5CB300C3C448 /* RGAppDelegate.m */; };
+		942FC9BE17CE5CB300C3C448 /* RGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 942FC9B517CE5CB300C3C448 /* RGViewController.m */; };
+		942FC9BF17CE5CB300C3C448 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 942FC9B717CE5CB300C3C448 /* InfoPlist.strings */; };
+		942FC9C017CE5CB300C3C448 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 942FC9B917CE5CB300C3C448 /* Images.xcassets */; };
+		942FC9C117CE5CB300C3C448 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 942FC9BA17CE5CB300C3C448 /* main.m */; };
+		942FC9CE17CE5DEF00C3C448 /* libRGFoundation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 942FC9CD17CE5DEF00C3C448 /* libRGFoundation.a */; };
+		942FC9D017CE5E0C00C3C448 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 942FC9CF17CE5E0C00C3C448 /* CoreText.framework */; };
+		942FC9D217CE5E1000C3C448 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 942FC9D117CE5E1000C3C448 /* MobileCoreServices.framework */; };
+		942FC9D417CE5E2600C3C448 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 942FC9D317CE5E2600C3C448 /* SystemConfiguration.framework */; };
+		942FC9D817CE5F4600C3C448 /* RGRide.m in Sources */ = {isa = PBXBuildFile; fileRef = 942FC9D717CE5F4600C3C448 /* RGRide.m */; };
+		942FC9DC17CE607300C3C448 /* RGUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 942FC9DB17CE607300C3C448 /* RGUser.m */; };
+		942FC9DF17CE607D00C3C448 /* RGLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 942FC9DE17CE607D00C3C448 /* RGLocation.m */; };
+		942FC9E217CE608B00C3C448 /* RGComment.m in Sources */ = {isa = PBXBuildFile; fileRef = 942FC9E117CE608B00C3C448 /* RGComment.m */; };
+		942FC9E617CE648A00C3C448 /* NSDate+Timestamps.m in Sources */ = {isa = PBXBuildFile; fileRef = 942FC9E517CE648A00C3C448 /* NSDate+Timestamps.m */; };
+		942FC9E817CE66CD00C3C448 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 942FC9E717CE66CD00C3C448 /* CoreLocation.framework */; };
+		942FC9EB17CE679A00C3C448 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 942FC9EA17CE679A00C3C448 /* Default-568h@2x.png */; };
+		942FC9EE17CEF9DE00C3C448 /* RGRideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 942FC9ED17CEF9DE00C3C448 /* RGRideViewController.m */; };
+		942FC9F117CEFC9D00C3C448 /* RGRideDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 942FC9F017CEFC9D00C3C448 /* RGRideDetailView.m */; };
+		942FC9F417CF005300C3C448 /* RGAttendee.m in Sources */ = {isa = PBXBuildFile; fileRef = 942FC9F317CF005300C3C448 /* RGAttendee.m */; };
+		942FC9F617CF029100C3C448 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 942FC9F517CF029100C3C448 /* MapKit.framework */; };
+		942FC9F917CF812100C3C448 /* RGAuthManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 942FC9F817CF812100C3C448 /* RGAuthManager.m */; };
+		942FC9FC17CF828C00C3C448 /* RGLogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 942FC9FB17CF828C00C3C448 /* RGLogInViewController.m */; };
+		942FC9FE17CF90D800C3C448 /* RGModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 942FC9FD17CF90D800C3C448 /* RGModel.m */; };
+		942FCA0117CF968C00C3C448 /* RGCommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 942FCA0017CF968C00C3C448 /* RGCommentViewController.m */; };
+		942FCA0417CFAE7E00C3C448 /* RGService+RideCall.m in Sources */ = {isa = PBXBuildFile; fileRef = 942FCA0317CFAE7E00C3C448 /* RGService+RideCall.m */; };
+		942FCA0717D0F09C00C3C448 /* RGCreateRideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 942FCA0617D0F09C00C3C448 /* RGCreateRideViewController.m */; };
+		94921CFA17FE58CB0060F6CD /* Application-iOS.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 94921CEC17FE58CB0060F6CD /* Application-iOS.xcconfig */; };
+		94921CFB17FE58CB0060F6CD /* Application-Mac.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 94921CED17FE58CB0060F6CD /* Application-Mac.xcconfig */; };
+		94921CFC17FE58CB0060F6CD /* Application.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 94921CEE17FE58CB0060F6CD /* Application.xcconfig */; };
+		94921CFD17FE58CB0060F6CD /* StaticLibrary-iOS.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 94921CF017FE58CB0060F6CD /* StaticLibrary-iOS.xcconfig */; };
+		94921CFE17FE58CB0060F6CD /* StaticLibrary-Mac.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 94921CF117FE58CB0060F6CD /* StaticLibrary-Mac.xcconfig */; };
+		94921CFF17FE58CB0060F6CD /* StaticLibrary.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 94921CF217FE58CB0060F6CD /* StaticLibrary.xcconfig */; };
+		94921D0017FE58CB0060F6CD /* Platform-iOS.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 94921CF417FE58CB0060F6CD /* Platform-iOS.xcconfig */; };
+		94921D0117FE58CB0060F6CD /* Platform-Mac.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 94921CF517FE58CB0060F6CD /* Platform-Mac.xcconfig */; };
+		94921D0217FE58CB0060F6CD /* Project-Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 94921CF717FE58CB0060F6CD /* Project-Debug.xcconfig */; };
+		94921D0317FE58CB0060F6CD /* Project-Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 94921CF817FE58CB0060F6CD /* Project-Release.xcconfig */; };
+		94921D0417FE58CB0060F6CD /* Project.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 94921CF917FE58CB0060F6CD /* Project.xcconfig */; };
+		94A4BBD417D3912500AB5708 /* NSURL+RideCall.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A4BBD317D3912500AB5708 /* NSURL+RideCall.m */; };
+		94A4BCB217D3DF7B00AB5708 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94A4BCB117D3DF7B00AB5708 /* Parse.framework */; };
+		94A4BCB417D3DFA800AB5708 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94A4BCB317D3DFA800AB5708 /* AudioToolbox.framework */; };
+		94A4BCB617D3DFB000AB5708 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94A4BCB517D3DFB000AB5708 /* CFNetwork.framework */; };
+		94A4BCB817D3DFB800AB5708 /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 94A4BCB717D3DFB800AB5708 /* libz.1.1.3.dylib */; };
+		94A4BCBA17D3DFC400AB5708 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94A4BCB917D3DFC400AB5708 /* QuartzCore.framework */; };
+		94A4BCBC17D3DFC800AB5708 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94A4BCBB17D3DFC800AB5708 /* Security.framework */; };
+		94A4BCBE17D3DFCC00AB5708 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94A4BCBD17D3DFCC00AB5708 /* StoreKit.framework */; };
+		94A4BCC217D3E2B800AB5708 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94A4BCC117D3E2B800AB5708 /* FacebookSDK.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		942FC97817CE5A7000C3C448 /* RideCall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RideCall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		942FC97B17CE5A7000C3C448 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		942FC97D17CE5A7000C3C448 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		942FC97F17CE5A7000C3C448 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		942FC99A17CE5A7000C3C448 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		942FC9B217CE5CB300C3C448 /* RGAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGAppDelegate.h; sourceTree = "<group>"; };
+		942FC9B317CE5CB300C3C448 /* RGAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGAppDelegate.m; sourceTree = "<group>"; };
+		942FC9B417CE5CB300C3C448 /* RGViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGViewController.h; sourceTree = "<group>"; };
+		942FC9B517CE5CB300C3C448 /* RGViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGViewController.m; sourceTree = "<group>"; };
+		942FC9B817CE5CB300C3C448 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		942FC9B917CE5CB300C3C448 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		942FC9BA17CE5CB300C3C448 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		942FC9BB17CE5CB300C3C448 /* RideCall-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "RideCall-Info.plist"; sourceTree = "<group>"; };
+		942FC9BC17CE5CB300C3C448 /* RideCall-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RideCall-Prefix.pch"; sourceTree = "<group>"; };
+		942FC9CD17CE5DEF00C3C448 /* libRGFoundation.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libRGFoundation.a; path = "../../../../../../../../Dropbox/Projects/RGFoundation/build/Debug-iphoneos/libRGFoundation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		942FC9CF17CE5E0C00C3C448 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		942FC9D117CE5E1000C3C448 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		942FC9D317CE5E2600C3C448 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		942FC9D617CE5F4600C3C448 /* RGRide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGRide.h; sourceTree = "<group>"; };
+		942FC9D717CE5F4600C3C448 /* RGRide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGRide.m; sourceTree = "<group>"; };
+		942FC9D917CE5F6E00C3C448 /* RGModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGModel.h; sourceTree = "<group>"; };
+		942FC9DA17CE607300C3C448 /* RGUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGUser.h; sourceTree = "<group>"; };
+		942FC9DB17CE607300C3C448 /* RGUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGUser.m; sourceTree = "<group>"; };
+		942FC9DD17CE607D00C3C448 /* RGLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGLocation.h; sourceTree = "<group>"; };
+		942FC9DE17CE607D00C3C448 /* RGLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGLocation.m; sourceTree = "<group>"; };
+		942FC9E017CE608B00C3C448 /* RGComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGComment.h; sourceTree = "<group>"; };
+		942FC9E117CE608B00C3C448 /* RGComment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGComment.m; sourceTree = "<group>"; };
+		942FC9E417CE648A00C3C448 /* NSDate+Timestamps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+Timestamps.h"; path = "Categories/NSDate+Timestamps.h"; sourceTree = "<group>"; };
+		942FC9E517CE648A00C3C448 /* NSDate+Timestamps.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+Timestamps.m"; path = "Categories/NSDate+Timestamps.m"; sourceTree = "<group>"; };
+		942FC9E717CE66CD00C3C448 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		942FC9EA17CE679A00C3C448 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		942FC9EC17CEF9DE00C3C448 /* RGRideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGRideViewController.h; sourceTree = "<group>"; };
+		942FC9ED17CEF9DE00C3C448 /* RGRideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGRideViewController.m; sourceTree = "<group>"; };
+		942FC9EF17CEFC9D00C3C448 /* RGRideDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGRideDetailView.h; sourceTree = "<group>"; };
+		942FC9F017CEFC9D00C3C448 /* RGRideDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGRideDetailView.m; sourceTree = "<group>"; };
+		942FC9F217CF005300C3C448 /* RGAttendee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGAttendee.h; sourceTree = "<group>"; };
+		942FC9F317CF005300C3C448 /* RGAttendee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGAttendee.m; sourceTree = "<group>"; };
+		942FC9F517CF029100C3C448 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		942FC9F717CF812100C3C448 /* RGAuthManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGAuthManager.h; sourceTree = "<group>"; };
+		942FC9F817CF812100C3C448 /* RGAuthManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGAuthManager.m; sourceTree = "<group>"; };
+		942FC9FA17CF828C00C3C448 /* RGLogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGLogInViewController.h; sourceTree = "<group>"; };
+		942FC9FB17CF828C00C3C448 /* RGLogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGLogInViewController.m; sourceTree = "<group>"; };
+		942FC9FD17CF90D800C3C448 /* RGModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGModel.m; sourceTree = "<group>"; };
+		942FC9FF17CF968C00C3C448 /* RGCommentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGCommentViewController.h; sourceTree = "<group>"; };
+		942FCA0017CF968C00C3C448 /* RGCommentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGCommentViewController.m; sourceTree = "<group>"; };
+		942FCA0217CFAE7E00C3C448 /* RGService+RideCall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "RGService+RideCall.h"; path = "Categories/RGService+RideCall.h"; sourceTree = "<group>"; };
+		942FCA0317CFAE7E00C3C448 /* RGService+RideCall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "RGService+RideCall.m"; path = "Categories/RGService+RideCall.m"; sourceTree = "<group>"; };
+		942FCA0517D0F09C00C3C448 /* RGCreateRideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGCreateRideViewController.h; sourceTree = "<group>"; };
+		942FCA0617D0F09C00C3C448 /* RGCreateRideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGCreateRideViewController.m; sourceTree = "<group>"; };
+		94921CEC17FE58CB0060F6CD /* Application-iOS.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Application-iOS.xcconfig"; sourceTree = "<group>"; };
+		94921CED17FE58CB0060F6CD /* Application-Mac.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Application-Mac.xcconfig"; sourceTree = "<group>"; };
+		94921CEE17FE58CB0060F6CD /* Application.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Application.xcconfig; sourceTree = "<group>"; };
+		94921CF017FE58CB0060F6CD /* StaticLibrary-iOS.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "StaticLibrary-iOS.xcconfig"; sourceTree = "<group>"; };
+		94921CF117FE58CB0060F6CD /* StaticLibrary-Mac.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "StaticLibrary-Mac.xcconfig"; sourceTree = "<group>"; };
+		94921CF217FE58CB0060F6CD /* StaticLibrary.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = StaticLibrary.xcconfig; sourceTree = "<group>"; };
+		94921CF417FE58CB0060F6CD /* Platform-iOS.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Platform-iOS.xcconfig"; sourceTree = "<group>"; };
+		94921CF517FE58CB0060F6CD /* Platform-Mac.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Platform-Mac.xcconfig"; sourceTree = "<group>"; };
+		94921CF717FE58CB0060F6CD /* Project-Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Project-Debug.xcconfig"; sourceTree = "<group>"; };
+		94921CF817FE58CB0060F6CD /* Project-Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Project-Release.xcconfig"; sourceTree = "<group>"; };
+		94921CF917FE58CB0060F6CD /* Project.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Project.xcconfig; sourceTree = "<group>"; };
+		94A4BBD217D3912500AB5708 /* NSURL+RideCall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSURL+RideCall.h"; path = "Categories/NSURL+RideCall.h"; sourceTree = "<group>"; };
+		94A4BBD317D3912500AB5708 /* NSURL+RideCall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSURL+RideCall.m"; path = "Categories/NSURL+RideCall.m"; sourceTree = "<group>"; };
+		94A4BCB117D3DF7B00AB5708 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = Vendor/Parse.framework; sourceTree = "<group>"; };
+		94A4BCB317D3DFA800AB5708 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		94A4BCB517D3DFB000AB5708 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		94A4BCB717D3DFB800AB5708 /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		94A4BCB917D3DFC400AB5708 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		94A4BCBB17D3DFC800AB5708 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		94A4BCBD17D3DFCC00AB5708 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		94A4BCC117D3E2B800AB5708 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = Vendor/FacebookSDK.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		942FC97517CE5A7000C3C448 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94A4BCBE17D3DFCC00AB5708 /* StoreKit.framework in Frameworks */,
+				94A4BCBC17D3DFC800AB5708 /* Security.framework in Frameworks */,
+				94A4BCBA17D3DFC400AB5708 /* QuartzCore.framework in Frameworks */,
+				94A4BCB817D3DFB800AB5708 /* libz.1.1.3.dylib in Frameworks */,
+				94A4BCB617D3DFB000AB5708 /* CFNetwork.framework in Frameworks */,
+				94A4BCB417D3DFA800AB5708 /* AudioToolbox.framework in Frameworks */,
+				94A4BCB217D3DF7B00AB5708 /* Parse.framework in Frameworks */,
+				942FC9F617CF029100C3C448 /* MapKit.framework in Frameworks */,
+				94A4BCC217D3E2B800AB5708 /* FacebookSDK.framework in Frameworks */,
+				942FC9CE17CE5DEF00C3C448 /* libRGFoundation.a in Frameworks */,
+				942FC9E817CE66CD00C3C448 /* CoreLocation.framework in Frameworks */,
+				942FC9D217CE5E1000C3C448 /* MobileCoreServices.framework in Frameworks */,
+				942FC9D417CE5E2600C3C448 /* SystemConfiguration.framework in Frameworks */,
+				942FC9D017CE5E0C00C3C448 /* CoreText.framework in Frameworks */,
+				942FC97E17CE5A7000C3C448 /* CoreGraphics.framework in Frameworks */,
+				942FC98017CE5A7000C3C448 /* UIKit.framework in Frameworks */,
+				942FC97C17CE5A7000C3C448 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		942FC96F17CE5A7000C3C448 = {
+			isa = PBXGroup;
+			children = (
+				94921CEA17FE58CB0060F6CD /* Configurations */,
+				942FC9E317CE645C00C3C448 /* Categories */,
+				942FC9B117CE5CB300C3C448 /* Classes */,
+				942FC9E917CE679A00C3C448 /* Images */,
+				942FC9B617CE5CB300C3C448 /* Support */,
+				942FC97A17CE5A7000C3C448 /* Frameworks */,
+				942FC97917CE5A7000C3C448 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		942FC97917CE5A7000C3C448 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				942FC97817CE5A7000C3C448 /* RideCall.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		942FC97A17CE5A7000C3C448 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				942FC9CD17CE5DEF00C3C448 /* libRGFoundation.a */,
+				94A4BCB717D3DFB800AB5708 /* libz.1.1.3.dylib */,
+				94A4BCC117D3E2B800AB5708 /* FacebookSDK.framework */,
+				94A4BCBD17D3DFCC00AB5708 /* StoreKit.framework */,
+				94A4BCBB17D3DFC800AB5708 /* Security.framework */,
+				94A4BCB917D3DFC400AB5708 /* QuartzCore.framework */,
+				94A4BCB517D3DFB000AB5708 /* CFNetwork.framework */,
+				94A4BCB317D3DFA800AB5708 /* AudioToolbox.framework */,
+				94A4BCB117D3DF7B00AB5708 /* Parse.framework */,
+				942FC9F517CF029100C3C448 /* MapKit.framework */,
+				942FC9E717CE66CD00C3C448 /* CoreLocation.framework */,
+				942FC9D317CE5E2600C3C448 /* SystemConfiguration.framework */,
+				942FC9D117CE5E1000C3C448 /* MobileCoreServices.framework */,
+				942FC9CF17CE5E0C00C3C448 /* CoreText.framework */,
+				942FC97B17CE5A7000C3C448 /* Foundation.framework */,
+				942FC97D17CE5A7000C3C448 /* CoreGraphics.framework */,
+				942FC97F17CE5A7000C3C448 /* UIKit.framework */,
+				942FC99A17CE5A7000C3C448 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		942FC9B117CE5CB300C3C448 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				942FC9D517CE5F3200C3C448 /* Models */,
+				942FC9B217CE5CB300C3C448 /* RGAppDelegate.h */,
+				942FC9B317CE5CB300C3C448 /* RGAppDelegate.m */,
+				942FC9B417CE5CB300C3C448 /* RGViewController.h */,
+				942FC9B517CE5CB300C3C448 /* RGViewController.m */,
+				942FC9EC17CEF9DE00C3C448 /* RGRideViewController.h */,
+				942FC9ED17CEF9DE00C3C448 /* RGRideViewController.m */,
+				942FC9EF17CEFC9D00C3C448 /* RGRideDetailView.h */,
+				942FC9F017CEFC9D00C3C448 /* RGRideDetailView.m */,
+				942FC9F717CF812100C3C448 /* RGAuthManager.h */,
+				942FC9F817CF812100C3C448 /* RGAuthManager.m */,
+				942FC9FA17CF828C00C3C448 /* RGLogInViewController.h */,
+				942FC9FB17CF828C00C3C448 /* RGLogInViewController.m */,
+				942FC9FF17CF968C00C3C448 /* RGCommentViewController.h */,
+				942FCA0017CF968C00C3C448 /* RGCommentViewController.m */,
+				942FCA0517D0F09C00C3C448 /* RGCreateRideViewController.h */,
+				942FCA0617D0F09C00C3C448 /* RGCreateRideViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		942FC9B617CE5CB300C3C448 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				942FC9BC17CE5CB300C3C448 /* RideCall-Prefix.pch */,
+				942FC9B717CE5CB300C3C448 /* InfoPlist.strings */,
+				942FC9B917CE5CB300C3C448 /* Images.xcassets */,
+				942FC9BA17CE5CB300C3C448 /* main.m */,
+				942FC9BB17CE5CB300C3C448 /* RideCall-Info.plist */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		942FC9D517CE5F3200C3C448 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				942FC9D917CE5F6E00C3C448 /* RGModel.h */,
+				942FC9FD17CF90D800C3C448 /* RGModel.m */,
+				942FC9DA17CE607300C3C448 /* RGUser.h */,
+				942FC9DB17CE607300C3C448 /* RGUser.m */,
+				942FC9F217CF005300C3C448 /* RGAttendee.h */,
+				942FC9F317CF005300C3C448 /* RGAttendee.m */,
+				942FC9DD17CE607D00C3C448 /* RGLocation.h */,
+				942FC9DE17CE607D00C3C448 /* RGLocation.m */,
+				942FC9E017CE608B00C3C448 /* RGComment.h */,
+				942FC9E117CE608B00C3C448 /* RGComment.m */,
+				942FC9D617CE5F4600C3C448 /* RGRide.h */,
+				942FC9D717CE5F4600C3C448 /* RGRide.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		942FC9E317CE645C00C3C448 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				942FC9E417CE648A00C3C448 /* NSDate+Timestamps.h */,
+				942FC9E517CE648A00C3C448 /* NSDate+Timestamps.m */,
+				942FCA0217CFAE7E00C3C448 /* RGService+RideCall.h */,
+				942FCA0317CFAE7E00C3C448 /* RGService+RideCall.m */,
+				94A4BBD217D3912500AB5708 /* NSURL+RideCall.h */,
+				94A4BBD317D3912500AB5708 /* NSURL+RideCall.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		942FC9E917CE679A00C3C448 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				942FC9EA17CE679A00C3C448 /* Default-568h@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		94921CEA17FE58CB0060F6CD /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				94921CEB17FE58CB0060F6CD /* Application */,
+				94921CEF17FE58CB0060F6CD /* Library */,
+				94921CF317FE58CB0060F6CD /* Platforms */,
+				94921CF617FE58CB0060F6CD /* Project */,
+			);
+			path = Configurations;
+			sourceTree = "<group>";
+		};
+		94921CEB17FE58CB0060F6CD /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				94921CEC17FE58CB0060F6CD /* Application-iOS.xcconfig */,
+				94921CED17FE58CB0060F6CD /* Application-Mac.xcconfig */,
+				94921CEE17FE58CB0060F6CD /* Application.xcconfig */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		94921CEF17FE58CB0060F6CD /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				94921CF017FE58CB0060F6CD /* StaticLibrary-iOS.xcconfig */,
+				94921CF117FE58CB0060F6CD /* StaticLibrary-Mac.xcconfig */,
+				94921CF217FE58CB0060F6CD /* StaticLibrary.xcconfig */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		94921CF317FE58CB0060F6CD /* Platforms */ = {
+			isa = PBXGroup;
+			children = (
+				94921CF417FE58CB0060F6CD /* Platform-iOS.xcconfig */,
+				94921CF517FE58CB0060F6CD /* Platform-Mac.xcconfig */,
+			);
+			path = Platforms;
+			sourceTree = "<group>";
+		};
+		94921CF617FE58CB0060F6CD /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				94921CF717FE58CB0060F6CD /* Project-Debug.xcconfig */,
+				94921CF817FE58CB0060F6CD /* Project-Release.xcconfig */,
+				94921CF917FE58CB0060F6CD /* Project.xcconfig */,
+			);
+			path = Project;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		942FC97717CE5A7000C3C448 /* RideCall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 942FC9AA17CE5A7100C3C448 /* Build configuration list for PBXNativeTarget "RideCall" */;
+			buildPhases = (
+				942FC97417CE5A7000C3C448 /* Sources */,
+				942FC97517CE5A7000C3C448 /* Frameworks */,
+				942FC97617CE5A7000C3C448 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RideCall;
+			productName = RIdeCall;
+			productReference = 942FC97817CE5A7000C3C448 /* RideCall.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		942FC97017CE5A7000C3C448 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RG;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Ryan Gomba";
+			};
+			buildConfigurationList = 942FC97317CE5A7000C3C448 /* Build configuration list for PBXProject "RideCall" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 942FC96F17CE5A7000C3C448;
+			productRefGroup = 942FC97917CE5A7000C3C448 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				942FC97717CE5A7000C3C448 /* RideCall */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		942FC97617CE5A7000C3C448 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94921D0217FE58CB0060F6CD /* Project-Debug.xcconfig in Resources */,
+				94921D0117FE58CB0060F6CD /* Platform-Mac.xcconfig in Resources */,
+				94921D0417FE58CB0060F6CD /* Project.xcconfig in Resources */,
+				94921D0317FE58CB0060F6CD /* Project-Release.xcconfig in Resources */,
+				942FC9BF17CE5CB300C3C448 /* InfoPlist.strings in Resources */,
+				94921CFF17FE58CB0060F6CD /* StaticLibrary.xcconfig in Resources */,
+				942FC9C017CE5CB300C3C448 /* Images.xcassets in Resources */,
+				942FC9EB17CE679A00C3C448 /* Default-568h@2x.png in Resources */,
+				94921CFB17FE58CB0060F6CD /* Application-Mac.xcconfig in Resources */,
+				94921CFE17FE58CB0060F6CD /* StaticLibrary-Mac.xcconfig in Resources */,
+				94921CFA17FE58CB0060F6CD /* Application-iOS.xcconfig in Resources */,
+				94921CFC17FE58CB0060F6CD /* Application.xcconfig in Resources */,
+				94921CFD17FE58CB0060F6CD /* StaticLibrary-iOS.xcconfig in Resources */,
+				94921D0017FE58CB0060F6CD /* Platform-iOS.xcconfig in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		942FC97417CE5A7000C3C448 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				942FC9F417CF005300C3C448 /* RGAttendee.m in Sources */,
+				942FC9F117CEFC9D00C3C448 /* RGRideDetailView.m in Sources */,
+				942FC9EE17CEF9DE00C3C448 /* RGRideViewController.m in Sources */,
+				942FC9D817CE5F4600C3C448 /* RGRide.m in Sources */,
+				94A4BBD417D3912500AB5708 /* NSURL+RideCall.m in Sources */,
+				942FCA0417CFAE7E00C3C448 /* RGService+RideCall.m in Sources */,
+				942FCA0717D0F09C00C3C448 /* RGCreateRideViewController.m in Sources */,
+				942FC9BD17CE5CB300C3C448 /* RGAppDelegate.m in Sources */,
+				942FC9E217CE608B00C3C448 /* RGComment.m in Sources */,
+				942FC9C117CE5CB300C3C448 /* main.m in Sources */,
+				942FC9BE17CE5CB300C3C448 /* RGViewController.m in Sources */,
+				942FCA0117CF968C00C3C448 /* RGCommentViewController.m in Sources */,
+				942FC9F917CF812100C3C448 /* RGAuthManager.m in Sources */,
+				942FC9DC17CE607300C3C448 /* RGUser.m in Sources */,
+				942FC9DF17CE607D00C3C448 /* RGLocation.m in Sources */,
+				942FC9FC17CF828C00C3C448 /* RGLogInViewController.m in Sources */,
+				942FC9FE17CF90D800C3C448 /* RGModel.m in Sources */,
+				942FC9E617CE648A00C3C448 /* NSDate+Timestamps.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		942FC9B717CE5CB300C3C448 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				942FC9B817CE5CB300C3C448 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		942FC9A817CE5A7100C3C448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94921CF717FE58CB0060F6CD /* Project-Debug.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		942FC9A917CE5A7100C3C448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94921CF817FE58CB0060F6CD /* Project-Release.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		942FC9AB17CE5A7100C3C448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94921CEC17FE58CB0060F6CD /* Application-iOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ryan Gomba (KHX7N6LTR4)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/Ryan/Dropbox/Projects/RideCall/ridecall-app/RideCall/Vendor",
+				);
+				PROVISIONING_PROFILE = "3EF21392-91EB-407D-A1B5-1B03E77DB36A";
+			};
+			name = Debug;
+		};
+		942FC9AC17CE5A7100C3C448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94921CEC17FE58CB0060F6CD /* Application-iOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ryan Gomba (KHX7N6LTR4)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/Ryan/Dropbox/Projects/RideCall/ridecall-app/RideCall/Vendor",
+				);
+				PROVISIONING_PROFILE = "3EF21392-91EB-407D-A1B5-1B03E77DB36A";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		942FC97317CE5A7000C3C448 /* Build configuration list for PBXProject "RideCall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				942FC9A817CE5A7100C3C448 /* Debug */,
+				942FC9A917CE5A7100C3C448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		942FC9AA17CE5A7100C3C448 /* Build configuration list for PBXNativeTarget "RideCall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				942FC9AB17CE5A7100C3C448 /* Debug */,
+				942FC9AC17CE5A7100C3C448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 942FC97017CE5A7000C3C448 /* Project object */;
+}
